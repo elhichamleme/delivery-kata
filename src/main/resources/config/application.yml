@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: CARREFOUR-DELIVERY-KATA
+  profiles:
+    active: ${SPRING_PROFILE_ACTIVE:dev}
